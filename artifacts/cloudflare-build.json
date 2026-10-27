@@ -1,0 +1,21 @@
+{
+  "verified_date": "2026-10-27",
+  "url": "https://micromargin.stanimir559.workers.dev/",
+  "repository": "https://github.com/stanimir559-bit/MicroMargin",
+  "source_commit": "7540013202af4a2b56d3709b212d6cd716b9a61a",
+  "build_uuid": "4f97dd2b-5dc3-456a-ae8e-9137c294f188",
+  "trigger_source": "push_event",
+  "build_outcome": "success",
+  "deployed_version": "aedd2a0f-e537-4922-b21e-cbb2ff765f32",
+  "completed_utc": "2026-10-27T14:17:50Z",
+  "local_quality_gate": "typecheck/lint/build + 93 tests passed",
+  "local_auth_browser_scenarios": 2,
+  "live_anonymous_root": 303,
+  "live_anonymous_index_js_pdf_worker": 401,
+  "live_sign_in_after_ci": "passed",
+  "encrypted_binding_names": [
+    "ACCESS_PASSWORD",
+    "SESSION_SECRET"
+  ],
+  "database_created": false
+}

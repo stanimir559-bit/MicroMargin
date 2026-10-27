@@ -1,6 +1,6 @@
 # Next actions
 
-The first local vertical slice is implemented and tested. No work runs after this session ends.
+The local vertical slice and password-protected Cloudflare deployment are implemented and tested. Source: https://github.com/stanimir559-bit/MicroMargin . Main-branch pushes automatically run Cloudflare Builds and deploy. App: https://micromargin.stanimir559.workers.dev/ . No background agent work runs after this session ends.
 
 ## Resume safely
 

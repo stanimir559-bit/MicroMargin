@@ -1,5 +1,7 @@
 # Decision log — 2026-10-27
 
+Later authorization update: the user approved Cloudflare deployment with a shared password, permitted a database if needed, created stanimir559-bit/MicroMargin and explicitly approved public source. A server-side Worker gate was deployed without a database; GitHub main automatic builds were verified. Password/session values exist only in Cloudflare encrypted bindings. Earlier local-only decisions below describe the initial checkpoint.
+
 | Decision | Reason / reversible default |
 |---|---|
 | Existing starter-kit directory is app root | Preserve supplied files/ZIP without moving or deleting unknown material. No existing Git repository found. |

@@ -36,7 +36,7 @@ The GitHub plugin uploaded a clean current tree rather than local starter histor
 - `npm audit`:0 reported vulnerabilities after Wrangler addition;268 lockfile entries. See SUPPLY_CHAIN.md for development-only LGPL components.
 - Live anonymous checks: `/`303 to login; index HTML, app JS, synthetic PDF and PDF worker401; no-store headers.
 - Live browser: authorized login opened the app, PDF canvas/text rendered, logout followed by root navigation returned to login. See AUTH_QA.md.
-- Initial manual API deployment:74d8c4b1-237c-4cfa-a318-d6fe2bbee408. GitHub build verification is recorded separately in STATE.md when completed; do not infer its success from trigger creation alone.
+- Initial manual API deployment:74d8c4b1-237c-4cfa-a318-d6fe2bbee408. GitHub push commit7540013202af4a2b56d3709b212d6cd716b9a61a then automatically triggered successful build4f97dd2b-5dc3-456a-ae8e-9137c294f188 and deployed versionaedd2a0f-e537-4922-b21e-cbb2ff765f32. Native settings confirmed both secret bindings persisted; live password sign-in was verified again after CI.
 
 The initial direct deployment used the Cloudflare plugin for resource/secret operations and the documented short-lived, asset-scoped upload JWT for asset bytes. Temporary upload tokens stayed out of source/files; a terminal line-wrap issue affected parsing and was recovered with a new zero-upload manifest session. No account API credential was extracted.
 
