@@ -1,0 +1,10 @@
+ФАКТУРА
+СИНТЕТИЧЕН ДЕМО ДОСТАВЧИК
+Number: SYN-bg-00
+Date: 2026-10-27
+Currency: EUR
+Брашно | Pack: 1 kg | Pack price: 2.75 EUR | Packs: 2 | Line total: 5.50 EUR
+Input price basis: gross
+Demo VAT: 0%
+TOTAL: 5.50 EUR
+SYNTHETIC DATA - NO REAL CUSTOMER OR TAX RECORD

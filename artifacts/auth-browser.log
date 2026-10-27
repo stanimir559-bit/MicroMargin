@@ -1,0 +1,27 @@
+
+> micromargin@0.1.0 test:auth
+> playwright test --config playwright.auth.config.ts
+
+
+Running 2 tests using 1 worker
+
+(node:36952) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] X [ERROR] HTTP connection failed: TLS handshake failed: received fatal alert: CertificateUnknown
+[WebServer]
+[WebServer]
+[WebServer] X [ERROR] HTTP connection failed: TLS handshake failed: received fatal alert: CertificateUnknown
+[WebServer]
+[WebServer]
+  ok 1 [auth-desktop] › tests\auth-browser\gate.spec.ts:3:1 › real local Worker protects every asset, signs in, loads PDF and signs out (3.0s)
+(node:41012) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] X [ERROR] HTTP connection failed: TLS handshake failed: received fatal alert: CertificateUnknown
+[WebServer]
+[WebServer]
+[WebServer] X [ERROR] HTTP connection failed: TLS handshake failed: received fatal alert: CertificateUnknown
+[WebServer]
+[WebServer]
+  ok 2 [auth-mobile] › tests\auth-browser\gate.spec.ts:3:1 › real local Worker protects every asset, signs in, loads PDF and signs out (2.8s)
+
+  2 passed (10.9s)

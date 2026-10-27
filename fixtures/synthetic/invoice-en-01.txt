@@ -1,0 +1,10 @@
+INVOICE
+SYNTHETIC DEMO SUPPLIER
+Number: SYN-en-01
+Date: 2026-10-27
+Currency: EUR
+Milk | Pack: 2 L | Pack price: 3,00 EUR | Packs: 2 | Line total: 6.00 EUR
+Input price basis: gross
+Demo VAT: 5%
+TOTAL: 6.00 EUR
+SYNTHETIC DATA - NO REAL CUSTOMER OR TAX RECORD

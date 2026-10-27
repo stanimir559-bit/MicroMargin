@@ -1,0 +1,3 @@
+# Resume MicroMargin with Codex
+
+Read `AGENTS.md`, `docs/STATE.md`, `docs/PLAN.md` (if it exists), and `docs/NEXT_ACTIONS.md` (if it exists). Inspect the working tree and the relevant files. Verify recorded tests instead of assuming they passed. Continue the **highest-priority safe, unblocked local task**, delegating disjoint subtasks where useful. Keep working through the queue within this active session without asking for routine design approval. Honor `docs/DECISION_GATES.md` and maintain existing safety restrictions. If approval or external access is needed, log it, switch to local work, and ask one grouped question only when all useful local work is blocked. Update `docs/STATE.md` before ending. Do not claim to be working after the session stops.

@@ -1,0 +1,200 @@
+{
+  "runDate": "2026-10-27",
+  "scope": "20 synthetic UTF-8 text fixtures; 2 languages; varied pack units/quantities/prices/fictional VAT; one labelled pipe layout family with column-header/order variation. No PDF parsing/OCR or real invoices.",
+  "version": "invoice2data 1.0.1",
+  "templatePath": "trusted in-memory InvoiceTemplate; direct extract; explicit text reader; no fallback APIs",
+  "positiveDocumentExact": 20,
+  "positiveDocuments": 20,
+  "positiveFieldsExact": 160,
+  "positiveFields": 160,
+  "baselinePositiveExact": 20,
+  "candidateImportMs": 90.459,
+  "candidateWarmTotalMs": 3.322,
+  "baselineWarmTotalMs": 0.476,
+  "negativeCases": [
+    {
+      "case": "missing-currency",
+      "candidateProposedDespiteUnsupportedInput": true,
+      "baselineProposedDespiteUnsupportedInput": false
+    },
+    {
+      "case": "negative-credit-line",
+      "candidateProposedDespiteUnsupportedInput": false,
+      "baselineProposedDespiteUnsupportedInput": false
+    },
+    {
+      "case": "unknown-pack-unit",
+      "candidateProposedDespiteUnsupportedInput": false,
+      "baselineProposedDespiteUnsupportedInput": false
+    },
+    {
+      "case": "unsupported-label-layout",
+      "candidateProposedDespiteUnsupportedInput": false,
+      "baselineProposedDespiteUnsupportedInput": false
+    }
+  ],
+  "promptInjectionIgnored": true,
+  "rows": [
+    {
+      "file": "invoice-en-00.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-en-01.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-en-02.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-en-03.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-en-04.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-en-05.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-en-06.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-en-07.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-en-08.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-en-09.txt",
+      "language": "en",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-00.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-01.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-02.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-03.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-04.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-05.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-06.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-07.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-08.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    },
+    {
+      "file": "invoice-bg-09.txt",
+      "language": "bg",
+      "correctFields": 8,
+      "expectedFields": 8,
+      "baselineExact": true,
+      "candidateExact": true
+    }
+  ],
+  "decision": "Do not adopt sidecar: synthetic match does not show advantage over small baseline; missing currency is silently defaulted to EUR. Keep manual confirmation and independently validate source currency."
+}

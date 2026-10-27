@@ -1,0 +1,10 @@
+ФАКТУРА
+СИНТЕТИЧЕН ДЕМО ДОСТАВЧИК
+Number: SYN-bg-02
+Date: 2026-10-27
+Currency: EUR
+Яйца | Pack: 24 each | Pack price: 3.25 EUR | Packs: 2 | Line total: 6.50 EUR
+Input price basis: gross
+Demo VAT: 10%
+TOTAL: 6.50 EUR
+SYNTHETIC DATA - NO REAL CUSTOMER OR TAX RECORD

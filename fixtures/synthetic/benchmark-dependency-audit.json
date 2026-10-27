@@ -1,0 +1,103 @@
+{
+  "accessDate": "2026-10-27",
+  "pypiHashMatch": true,
+  "osv": "completed",
+  "wheels": [
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "file": "click-8.5.0-py3-none-any.whl",
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+      "license": "BSD-3-Clause",
+      "requires": [],
+      "pthHooks": false,
+      "osvAdvisoryIds": []
+    },
+    {
+      "name": "invoice2data",
+      "version": "1.0.1",
+      "file": "invoice2data-1.0.1-cp312-cp312-win_amd64.whl",
+      "sha256": "96d84ef45eaad5c5e0070f7cf20274f1121594466bffb8723a671d8589f9102b",
+      "license": "MIT",
+      "requires": [
+        "click>=8.0.1",
+        "python-dateutil>=2.8",
+        "PyYAML>=6.0",
+        "regex>=2025.2.10; python_version >= \"3.12\"",
+        "regex>=2024.4.16; python_version < \"3.12\"",
+        "httpx>=0.27; extra == \"ai\"",
+        "camelot-py>=1.0; extra == \"camelot\"",
+        "dateparser>=1.2.0; extra == \"dateparser\"",
+        "defusedxml>=0.7.1; extra == \"defusedxml\"",
+        "python-doctr[torch]>=0.8; extra == \"doctr\"",
+        "paddleocr>=2.7; extra == \"paddleocr\"",
+        "paddlepaddle>=2.5; extra == \"paddleocr\"",
+        "pypdfium2>=4; extra == \"paddleocr\"",
+        "google-cloud-storage>=2.18; extra == \"googlevision\"",
+        "google-cloud-vision>=3.8; extra == \"googlevision\"",
+        "hotpdf>=0.1.0; extra == \"hotpdf\"",
+        "ghostscript>=0.7; extra == \"ocr\"",
+        "ocrmypdf>=14.4.0; extra == \"ocrmypdf\"",
+        "pypdfium2>=4; extra == \"pdfium\"",
+        "pdfminer-six==20231228; extra == \"pdfminer-six\"",
+        "pdf-oxide>=0.3; extra == \"pdfoxide\"",
+        "pdfplumber<0.12,>=0.11.4; extra == \"pdfplumber\""
+      ],
+      "pthHooks": false,
+      "osvAdvisoryIds": []
+    },
+    {
+      "name": "python-dateutil",
+      "version": "3.0.0",
+      "file": "python_dateutil-3.0.0-py2.py3-none-any.whl",
+      "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
+      "license": "Dual License",
+      "requires": [
+        "six>=1.6",
+        "tzdata"
+      ],
+      "pthHooks": false,
+      "osvAdvisoryIds": []
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "file": "pyyaml-6.0.3-cp312-cp312-win_amd64.whl",
+      "sha256": "5fcd34e47f6e0b794d17de1b4ff496c00986e1c83f7ab2fb8fcfe9616ff7477b",
+      "license": "MIT",
+      "requires": [],
+      "pthHooks": false,
+      "osvAdvisoryIds": []
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.29",
+      "file": "regex-2026.9.29-cp312-cp312-win_amd64.whl",
+      "sha256": "fdd88ed5e20b1bcdd234421e454962c971aa44b653bdb7f1ea9ef683e90fb649",
+      "license": "Apache-2.0 AND CNRI-Python",
+      "requires": [],
+      "pthHooks": false,
+      "osvAdvisoryIds": []
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "file": "six-1.17.0-py2.py3-none-any.whl",
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "license": "MIT",
+      "requires": [],
+      "pthHooks": false,
+      "osvAdvisoryIds": []
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.5",
+      "file": "tzdata-2026.5-py2.py3-none-any.whl",
+      "sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac",
+      "license": "Apache-2.0",
+      "requires": [],
+      "pthHooks": false,
+      "osvAdvisoryIds": []
+    }
+  ]
+}

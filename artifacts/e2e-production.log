@@ -1,0 +1,23 @@
+
+> micromargin@0.1.0 test:e2e
+> playwright test
+
+
+Running 10 tests using 1 worker
+
+(node:38836) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [desktop] › tests\e2e\demo.spec.ts:11:1 › demo → review price impact → save → persisted recipe costing (2.5s)
+  ok  2 [desktop] › tests\e2e\demo.spec.ts:32:1 › new ingredient, batch recipe, loss validation and VAT profile (2.6s)
+  ok  3 [desktop] › tests\e2e\demo.spec.ts:62:1 › keyboard navigation, local-only requests and narrow viewport (1.1s)
+  ok  4 [desktop] › tests\e2e\demo.spec.ts:75:1 › synthetic PDF preview requires reviewed confirmation; malformed file cannot import (2.5s)
+  ok  5 [desktop] › tests\e2e\demo.spec.ts:105:1 › empty local catalogue recovers through add ingredient; corrupt state is preserved (1.7s)
+(node:36120) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  6 [mobile] › tests\e2e\demo.spec.ts:11:1 › demo → review price impact → save → persisted recipe costing (2.2s)
+  ok  7 [mobile] › tests\e2e\demo.spec.ts:32:1 › new ingredient, batch recipe, loss validation and VAT profile (2.2s)
+  ok  8 [mobile] › tests\e2e\demo.spec.ts:62:1 › keyboard navigation, local-only requests and narrow viewport (1.1s)
+  ok  9 [mobile] › tests\e2e\demo.spec.ts:75:1 › synthetic PDF preview requires reviewed confirmation; malformed file cannot import (2.4s)
+  ok 10 [mobile] › tests\e2e\demo.spec.ts:105:1 › empty local catalogue recovers through add ingredient; corrupt state is preserved (1.6s)
+
+  10 passed (22.5s)

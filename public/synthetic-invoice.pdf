@@ -1,0 +1,119 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 595 842 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author (MicroMargin synthetic fixtures) /CreationDate (D:20261027110143+02'00') /Creator (anonymous) /Keywords () /ModDate (D:20261027110143+02'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (MicroMargin - synthetic invoice fixture) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Length 1985
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.086275 .247059 .196078 rg
+n 0 738 595 104 re f*
+1 1 1 rg
+BT /F2 25 Tf 30 TL ET
+BT 1 0 0 1 42 786 Tm (SUPPLIER INVOICE) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 42 762 Tm (SYNTHETIC DEMO - NOT AN ACCOUNTING DOCUMENT) Tj T* ET
+.086275 .247059 .196078 rg
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 42 691 Tm (Little Mill / Fictional supplier) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 42 666 Tm (Invoice: SYN-2026-001) Tj T* ET
+BT 1 0 0 1 42 646 Tm (Date: 2026-10-27) Tj T* ET
+BT 1 0 0 1 42 626 Tm (Customer: Little Bite Bakery \(fictional\)) Tj T* ET
+BT 1 0 0 1 42 606 Tm (Currency: EUR | Demo VAT: 0% | Prices: gross) Tj T* ET
+.929412 .952941 .929412 rg
+n 42 532 511 34 re f*
+.086275 .247059 .196078 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 52 545 Tm (Ingredient) Tj T* ET
+BT 1 0 0 1 245 545 Tm (Pack) Tj T* ET
+BT 1 0 0 1 325 545 Tm (Pack price) Tj T* ET
+BT 1 0 0 1 420 545 Tm (Packs) Tj T* ET
+BT 1 0 0 1 478 545 Tm (Total) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 52 508 Tm (Wheat flour) Tj T* ET
+BT 1 0 0 1 245 508 Tm (1 kg) Tj T* ET
+BT 1 0 0 1 325 508 Tm (2.75 EUR) Tj T* ET
+BT 1 0 0 1 420 508 Tm (2) Tj T* ET
+BT 1 0 0 1 478 508 Tm (5.50 EUR) Tj T* ET
+.858824 .894118 .862745 RG
+n 42 490 m 553 490 l S
+BT /F2 14 Tf 16.8 TL ET
+BT 1 0 0 1 360 450 Tm (TOTAL: 5.50 EUR) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 42 370 Tm (Review example: a 1 kg supplier pack costs 2.75 EUR.) Tj T* ET
+BT 1 0 0 1 42 348 Tm (Two packs were bought. The 5.50 EUR line total is not the pack price.) Tj T* ET
+BT 1 0 0 1 42 326 Tm (Before import, match ingredient, supplier, pack and configured VAT basis.) Tj T* ET
+BT 1 0 0 1 42 304 Tm (All names, prices and invoice details are fictional. No real customer data.) Tj T* ET
+BT 1 0 0 1 42 282 Tm (This fixture tests text preview only; it does not validate tax compliance.) Tj T* ET
+.345098 .439216 .376471 rg
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 42 47 Tm (MicroMargin test fixture | Generated locally | Page 1 of 1) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000514 00000 n 
+0000000582 00000 n 
+0000000895 00000 n 
+0000000954 00000 n 
+trailer
+<<
+/ID 
+[<4e35e30815c2c25ab1dcdef4d8043c74><4e35e30815c2c25ab1dcdef4d8043c74>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
+startxref
+2990
+%%EOF

@@ -1,0 +1,10 @@
+INVOICE
+SYNTHETIC DEMO SUPPLIER
+Number: SYN-en-03
+Date: 2026-10-27
+Currency: EUR
+Flour | Pack: 1 kg | Pack price: 3,50 EUR | Packs: 2 | Line total: 7.00 EUR
+Input price basis: gross
+Demo VAT: 0%
+TOTAL: 7.00 EUR
+SYNTHETIC DATA - NO REAL CUSTOMER OR TAX RECORD

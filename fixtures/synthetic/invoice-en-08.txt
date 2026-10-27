@@ -1,0 +1,11 @@
+INVOICE
+SYNTHETIC DEMO SUPPLIER
+Number: SYN-en-08
+Date: 2026-10-27
+Currency: EUR
+Columns: name | pack quantity | unit price | quantity | total
+Eggs | Line total: 9.50 EUR | Packs: 2 | Pack price: 4.75 EUR | Pack: 24 each
+Input price basis: gross
+Demo VAT: 10%
+TOTAL: 9.50 EUR
+SYNTHETIC DATA - NO REAL CUSTOMER OR TAX RECORD
